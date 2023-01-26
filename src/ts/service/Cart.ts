@@ -30,7 +30,3 @@ export default class Cart {
       return this._items = this._items.filter(item => item.id != index)
     }   
 }
-
-
-// this.items - это же объект, не понимаю почему на него расспространяются методы для работы с массивом
-// по именам в функции следовал данному гайду https://habr.com/ru/post/558902/
